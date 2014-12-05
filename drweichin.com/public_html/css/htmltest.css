@@ -1,0 +1,47 @@
+#headTable{
+	width: 100%;
+}
+#menuImages{
+	width: 100%;
+	text-align: center;
+}
+table{
+	border-style: solid;
+	border-width: 1px;
+}
+td{
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+.parallax {
+	perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.parallax__layer{
+	position: absolute;
+	top:10px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.parallax__layer--base{
+	transform: translateZ(0);
+}
+/* scale caluclated by 1+(translateZ*-1)/perspective */
+
+.parallax__layer--back{
+	transform: translateZ(-1px) scale(2);
+	
+}
+
+.parallax__layer--deep{
+	transform: translateZ(-10px) scale (1);
+}
+.parallax__group{
+	position: relative;
+	height: 100vh;
+	transform-style: preserve-3d;
+}
