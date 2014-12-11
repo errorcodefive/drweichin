@@ -6,17 +6,25 @@
 	border: 0;
 	max-width:none;
 }
+#footer{
+	width: 100%;
+}
+#footer tr td{
+	width: 25%;
+}
 .headerButton{
 	min-width:150px;
+}
+#bottom_footer{
+	margin: auto;
 }
 header{
 	width: 100%;
 	position: fixed;
 	margin: 0;
 	border: 0;
-
-
 }
+
 #menuImages{
 	width: 100%;
 	margin: 0 auto;
