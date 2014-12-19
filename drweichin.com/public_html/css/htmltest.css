@@ -1,3 +1,20 @@
+.Dropdown{
+	max-height:0;
+	overflow:hidden;
+	transition:max-height 0.2s ease-out;
+}
+#cosmeticTab:hover #cosmeticDrop{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#prevTab:hover #prevDrop{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#opTab:hover #opDrop{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
 #headTable{
 	width: 100%;
 	background-color:green;
@@ -6,14 +23,36 @@
 	border: 0;
 	max-width:none;
 }
+/*Body Text*/
+h4{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 110%;
+	text-align:left;
+}
+.keepSquare{
+	height:auto;
+	width:100%;
+	padding-bottom:20%;
+}
+
+#IntroPictureBox{
+	
+}
 #footer{
 	width: 100%;
+	margin: 0 auto;
 }
 #footer tr td{
 	width: 25%;
 }
 .headerButton{
 	min-width:150px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:130%;
+}
+.procedures{
+	width:80%;
+	margin: 0 auto;
 }
 #bottom_footer{
 	margin: auto;
@@ -25,12 +64,14 @@ header{
 	border: 0;
 }
 
-#menuImages{
+#introTable{
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
-
+#introText{
+	padding-bottom:20%;
+}
 #logoCell{
 	
 }

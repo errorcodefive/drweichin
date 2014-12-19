@@ -3,7 +3,6 @@
 	<Head>
 		<link rel= "stylesheet" type = "text/css" href="css/htmltest.css">
 		<meta name="viewport" content = "width=device-width, initial-scale=1">
-	
 	</Head>
 	<body>
 		<header>
@@ -30,25 +29,39 @@
 		<div id = "spacer">
 			<p>
 		</div>
-		<table id ="introTable" >
-			<tr id="menuRow">
-				<td = "IntroPictureBox"
-				width = "30%">
-					<img id = "IntroPicture"
-					class = "keepSquare"
-					src="images/intro.jpg"
-					alt="Dr. Wei Chin"
-					align = "left"
-					>
-					</td>
-				<td = "introText">
-					<h4>
-					Intro Text 1
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sodales, lorem eget sollicitudin tincidunt, lectus turpis rutrum sapien, a cursus lectus orci a ligula. Donec at dictum diam, congue lacinia metus. Donec vulputate eu nunc ac mattis. Ut eget vulputate sapien. Suspendisse feugiat commodo ante ac condimentum. Ut faucibus felis hendrerit enim vestibulum, nec luctus sem condimentum. Mauris vitae euismod nisi, eget ultrices elit.
-					</h4>
-				</td>
-			</tr>
-		</table>
+		<div class = "PageTitle">
+			Procedures
+		</div>
+		<div>
+		<ul id = "procList">
+			<li id = "cosmeticTab">
+				Cosmetic
+				<ul id = "cosmeticDrop" class = "Dropdown">
+					<li>Teeth Whitening</li>
+					<li>Braces</li>
+					<li>Veneers</li>
+					<li>Dentures</li>
+				</ul>
+			</li>
+			<li id = "prevTab">	
+				Preventative
+				<ul id = "prevDrop" class = "Dropdown">
+					<li>Cleanings</li>
+					<li>Flouride Treatment</li>
+					<li>Sealants</li>
+				</ul>
+			</li>
+			<li id = "opTab">
+				Operative
+				<ul id = "opDrop" class = "Dropdown">
+					<li>Root Canals</li>
+					<li>Crowns</li>
+					<li>Bridges</li>
+					<li>Implants</li>
+					<li>Extractions</li>
+				</ul>
+			</li>
+		</ul>
 		<p>
 		<table id ="footer">
 			<tr>
