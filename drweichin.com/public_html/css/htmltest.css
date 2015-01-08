@@ -3,21 +3,76 @@
 	overflow:hidden;
 	transition:max-height 0.2s ease-out;
 }
-#cosmeticTab:hover #cosmeticDrop{
+html{
+	background-color:#6f8feb;
+}
+.headLink{
+
+}
+/*
+using active means that mouse must be held for dropdown to occur
+hover allows the dropdown to stay open
+*/
+
+#diagTab:active #diagDrop{
 	max-height:1500px;
 	transition: max-height 0.2s ease-in;
 }
-#prevTab:hover #prevDrop{
+#diagDrop:hover{
 	max-height:1500px;
 	transition: max-height 0.2s ease-in;
 }
-#opTab:hover #opDrop{
+#prevTab:active #prevDrop{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#prevDrop:hover{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#restoTab:active #restoDrop{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#restoDrop:hover{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#endoTab:active #endoDrop{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#endoDrop:hover{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#perioTab:active #perioDrop{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#perioDrop:hover{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#prosthTab:active #prosthDrop{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#prosthDrop:hover{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#surgTab:active #surgDrop{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#surgDrop:hover{
 	max-height:1500px;
 	transition: max-height 0.2s ease-in;
 }
 #headTable{
 	width: 100%;
-	background-color:green;
+	background-color:#51b4d7;
 	margin: 0;
 	padding: 0;
 	border: 0;
