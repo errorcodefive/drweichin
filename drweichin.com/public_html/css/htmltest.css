@@ -1,97 +1,25 @@
+body{
+	margin:0;
+}
+.BodyElement{
+	padding-left:17%;
+	padding-right:15%;
+}
+#bottom_footer{
+	margin: auto;
+}
+#diagTab{
+	border-width:1px;
+	border-style: solid;
+}
 .Dropdown{
 	max-height:0;
 	overflow:hidden;
 	transition:max-height 0.2s ease-out;
 }
-html{
-	background-color:#6f8feb;
-}
-.headLink{
-
-}
-/*
-using active means that mouse must be held for dropdown to occur
-hover allows the dropdown to stay open
-*/
-
-#diagTab:active #diagDrop{
+.Dropdown:hover{
 	max-height:1500px;
 	transition: max-height 0.2s ease-in;
-}
-#diagDrop:hover{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#prevTab:active #prevDrop{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#prevDrop:hover{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#restoTab:active #restoDrop{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#restoDrop:hover{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#endoTab:active #endoDrop{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#endoDrop:hover{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#perioTab:active #perioDrop{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#perioDrop:hover{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#prosthTab:active #prosthDrop{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#prosthDrop:hover{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#surgTab:active #surgDrop{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#surgDrop:hover{
-	max-height:1500px;
-	transition: max-height 0.2s ease-in;
-}
-#headTable{
-	width: 100%;
-	background-color:#51b4d7;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	max-width:none;
-}
-/*Body Text*/
-h4{
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 110%;
-	text-align:left;
-}
-.keepSquare{
-	height:auto;
-	width:100%;
-	padding-bottom:20%;
-}
-
-#IntroPictureBox{
-	
 }
 #footer{
 	width: 100%;
@@ -100,17 +28,10 @@ h4{
 #footer tr td{
 	width: 25%;
 }
-.headerButton{
-	min-width:150px;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:130%;
-}
-.procedures{
-	width:80%;
-	margin: 0 auto;
-}
-#bottom_footer{
-	margin: auto;
+h4{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 110%;
+	text-align:left;
 }
 header{
 	width: 100%;
@@ -118,7 +39,27 @@ header{
 	margin: 0;
 	border: 0;
 }
-
+.headerButton{
+	min-width:150px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:130%;
+}
+#headTable{
+	width: 100%;
+	background-color:#51b4d7;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	max-width:none;
+	position:fixed;
+}
+html{
+	background-color:#6f8feb;
+	margin:0px;
+}
+#IntroPicture{
+	padding-top:100px;
+}
 #introTable{
 	width: 100%;
 	margin: 0 auto;
@@ -127,15 +68,25 @@ header{
 #introText{
 	padding-bottom:20%;
 }
+.keepSquare{
+	height:auto;
+	width:100%;
+	padding-bottom:20%;
+}
 #logoCell{
-	
+	padding-left:15%;
 }
-body{
-	margin:0;
-
+.PageTitle{
+	padding-left:17%;
+	padding-top:10%;
 }
-html{
-	margin:0;
+.procedures{
+	width:80%;
+	margin: 0 auto;
+}
+#procList{
+	border-style: solid;
+	border-width: 1px;
 }
 table{
 	border-style: solid;
@@ -143,43 +94,71 @@ table{
 	max-width:1100px;
 	min-width:;
 }
-h1{
-
-}
 td{
-
 	border-style: solid;
 	border-width: 1px;
 	text-align: center;
 }
-.parallax {
-	perspective: 1px;
-	height: 100vh;
-	overflow-x: hidden;
-	overflow-y: auto;
-}
-.parallax__layer{
-	position: absolute;
-	top:10px;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-.parallax__layer--base{
-	transform: translateZ(0);
-}
-/* scale caluclated by 1+(translateZ*-1)/perspective */
-
-.parallax__layer--back{
-	transform: translateZ(-1px) scale(2);
-	
+ul{
+	list-style: square inside url('images/bullet.png');
 }
 
-.parallax__layer--deep{
-	transform: translateZ(-10px) scale (1);
+/*
+Tabs for test procedures
+*/
+#tab1:active #drop1{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
 }
-.parallax__group{
-	position: relative;
-	height: 100vh;
-	transform-style: preserve-3d;
+#tab1:hover #drop1{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#tab2:active #drop2{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#tab2:hover #drop2{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#tab3:active #drop3{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#tab3:hover #drop3{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#tab4:active #drop4{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#tab4:hover #drop4{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#tab5:active #drop5{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#tab5:hover #drop5{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#tab6:active #drop6{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#tab6:hover #drop6{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#tab7:active #drop7{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
+}
+#tab7:hover #drop7{
+	max-height:1500px;
+	transition: max-height 0.2s ease-in;
 }
