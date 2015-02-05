@@ -1,36 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<Head>
-		<link rel= "stylesheet" type = "text/css" href = "css/htmltest.css">
-		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<?php include ("php/linkandmeta.php");?>
 	</Head>
 	<body>
-		<header>
-			<table id = "headTable" width = "100%">
-				<tr>
-					<td id = "logoCell" width="1%">
-						<a href = "htmltest.html">
-							<img id = "logoSVG"
-							src = "images/logo.svg"
-							alt="Dr.Wei Chin"
-							height = "100"
-							width = "100"
-							border = "1"
-							align = "left"
-							>
-						</a>
-					</td>
-					<td class = "headerButton">
-						<a href= "testprocedures.html" class = "headLink">Procedures</a>
-					</td>
-					<td class = "headerButton">Education</td>
-					<td class = "headerButton">
-						<a href = "contact.html" class = "headLink">Contact Us</a>
-					</td>
-					<td width = "20%"></td>
-				</tr>
-			</table>
-		</header>
+
+		<?php include("php/header.php");?>
 
 		<div class = "PageTitle">
 			Contact Us
@@ -66,19 +41,8 @@
 			Office and Fax: 416-733-0002<br>
 			Emergency: 647-400-8812
 		</div>
-		<table id = "footer">
-			<tr>
-				<td>Home</td>
-				<td>Procedures</td>
-				<td>Education</td>
-				<td>Contact</td>
-			</tr>
-		</table>
+		<?php include("php/footer.php");?>
 		<p>
-		<table id = "bottom_footer">
-			<tr>
-				<td>Copyright stuff</td>
-			</tr>
-		</table>
+		<?php include("php/copyright.php");?>
 	</body>
 </html>

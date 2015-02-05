@@ -1,40 +1,13 @@
 <!DOCTYPE html>
 <html>
 <Head>
-	<link rel= "stylesheet" type = "text/css" href="css/htmltest.css">
-	<meta name="viewport" content = "width=device-width, initial-scale=1">
+	<?php include ("php/linkandmeta.php");?>
 </Head>
 <body>
-	<header>
-		<table id="headTable" width ="100%">
-			<tr>
-				<td id="logoCell" width = "1%">
-					<a href = "htmltest.html">
-						<img id = "logoSVG" 
-						src="images/logo.svg" 
-						alt= "Dr. Wei Chin" 
-						height ="100" 
-						width = "100" 
-						border= "1"
-						align="left"
-						>
-					</a>
-				</td>
-				<td class="headerButton">
-					<a href ="testprocedures.html" class = "headLink">Procedures</a>
-				</td>
-				<td class="headerButton">FAQ</td>
-				<td class="headerButton">
-					<a href = "contact.html" class = "headLink">Contact Us</a>
-				</td>
-
-				<td width = "20%"></td>
-			</tr>
-		</table>
-	</header>	
+	<?php include("php/header.php");?>	
 
 	<div class = "PageTitle">
-	Endodontic Procedures
+		Endodontic Procedures
 	</div>
 
 	<ul id = "procList" class = "BodyElement">
@@ -51,5 +24,10 @@
 			</ul>
 		</li>
 	</ul>
-</body>
+	<p>
+		<?php include("php/footer.php");?>
+	<p>
+		<?php include("php/copyright");?>
+
+	</body>
 </html>

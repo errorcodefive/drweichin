@@ -5,7 +5,7 @@ body{
 	padding-left:17%;
 	padding-right:15%;
 }
-#bottom_footer{
+#copyFooter{
 	margin: auto;
 }
 #diagTab{
@@ -93,6 +93,9 @@ td{
 }
 ul{
 	list-style: square inside url('images/bullet.png');
+}
+#welcomeList{
+	
 }
 
 /*

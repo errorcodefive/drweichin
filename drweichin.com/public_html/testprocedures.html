@@ -1,44 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<Head>
-		<link rel= "stylesheet" type = "text/css" href="css/htmltest.css">
-		<meta name="viewport" content = "width=device-width, initial-scale=1">
+		<?php include ("php/linkandmeta.php");?>
 	</Head>
 	<body>
-		<header>
-			<table id="headTable" width ="100%">
-				<tr>
-					<td id="logoCell" width = "1%">
-						<a href = "htmltest.html">
-							<img id = "logoSVG" 
-							src="images/logo.svg" 
-							alt= "Dr. Wei Chin" 
-							height ="100" 
-							width = "100" 
-							border= "1"
-							align="left"
-							>
-						</a>
-					</td>
-					<td class="headerButton">
-						<a href ="testprocedures.html" class = "headLink">Procedures</a>
-					</td>
-					<td class="headerButton">FAQ</td>
-					<td class="headerButton">
-						<a href = "contact.html" class = "headLink">Contact Us</a>
-					</td>
-
-					<td width = "20%"></td>
-				</tr>
-			</table>
-		</header>
+		<?php include("php/header.php");?>
 		
 		<div class = "PageTitle">
 			Procedures
 		</div>
 		<div class = "BodyElement">
 			<p>
-			hese are just a few of the many procedures we offer. For further information and details please feel free to contact us.
+			These are just a few of the many procedures we offer. For further information and details please feel free to contact us.
 		</div>
 		
 		<ul id = "procList" class = "BodyElement">
@@ -107,19 +80,7 @@
 			</li>
 		</ul>
 		<p>
-		<table id ="footer">
-			<tr>
-				<td>Home</td>
-				<td>Procedures</td>
-				<td>Education</td>
-				<td>Contact</td>
-			</tr>
-		</table>
-		<p>
-		<table id = "bottom_footer">
-			<tr>
-				<td>Copyright stuff</td>
-			</tr>
-		</table>
+	<?php include("php/footer.php");?>
+	<?php include("php/copyright.php");?>
 	</body>
 </html>
