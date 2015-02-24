@@ -1,9 +1,17 @@
+a{
+	text-decoration:none;
+	color: #3d2e26;
+}
+a:hover{
+	color:#4a5548;
+}
 body{
 	margin:0;
 }
 .BodyElement{
 	padding-left:17%;
 	padding-right:15%;
+
 }
 #copyFooter{
 	margin: auto;
@@ -13,11 +21,11 @@ body{
 .Dropdown{
 	max-height:0;
 	overflow:hidden;
-	transition:max-height 0.2s ease-out;
+	transition:max-height 0.4s ease-out;
 }
 .Dropdown:hover{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #footer{
 	width: 100%;
@@ -44,7 +52,7 @@ header{
 }
 #headTable{
 	width: 100%;
-	background-color:#51b4d7;
+	background-color:#badaeb;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -52,7 +60,7 @@ header{
 	position:fixed;
 }
 html{
-	background-color:#6f8feb;
+	background-color:#badaeb;
 	margin:0px;
 }
 #IntroPicture{
@@ -62,9 +70,14 @@ html{
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+
 }
 #introText{
 	padding-bottom:20%;
+	padding-top:25%;
+	text-align:left;
+	padding-left:10%;
+	padding-right:10%;
 }
 .keepSquare{
 	height:auto;
@@ -95,65 +108,70 @@ ul{
 	list-style: square inside url('images/bullet.png');
 }
 #welcomeList{
-	
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:3%;
+	font-size:150%;
 }
+
 
 /*
 Tabs for test procedures
 */
 #tab1:active #drop1{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab1:hover #drop1{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab2:active #drop2{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab2:hover #drop2{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab3:active #drop3{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab3:hover #drop3{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab4:active #drop4{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab4:hover #drop4{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab5:active #drop5{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab5:hover #drop5{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab6:active #drop6{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab6:hover #drop6{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab7:active #drop7{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
 #tab7:hover #drop7{
 	max-height:1500px;
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.4s ease-in;
 }
