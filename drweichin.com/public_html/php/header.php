@@ -1,9 +1,10 @@
+<?php include_once("analyticstracking.php") ?>
 <header>
 <?php $isEnglish=True;?>	
 <table id="headTable" width ="100%">
 		<tr>
 			<td id="logoCell" width = "1%">
-				<a href = "htmltest.html">
+				<a href = "index.html">
 					<img id = "logoSVG" 
 					src="images/logo.svg" 
 					alt= "Dr. Wei Chin" 

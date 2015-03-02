@@ -1,9 +1,11 @@
 a{
 	text-decoration:none;
 	color: #3d2e26;
+
 }
 a:hover{
 	color:#4a5548;
+	text-decoration:underline;
 }
 body{
 	margin:0;
@@ -13,12 +15,16 @@ body{
 	padding-right:15%;
 
 }
+.contact{
+
+}
 #copyFooter{
 	margin: auto;
 }
 #diagTab{
 }
 .Dropdown{
+	list-style-type:none;
 	max-height:0;
 	overflow:hidden;
 	transition:max-height 0.4s ease-out;
@@ -63,6 +69,9 @@ html{
 	background-color:#badaeb;
 	margin:0px;
 }
+.icon{
+	width: 55px;
+}
 #IntroPicture{
 	padding-top:100px;
 }
@@ -84,6 +93,9 @@ html{
 	width:100%;
 	padding-bottom:20%;
 }
+.left_justify{
+	text-align:left;
+}
 #logoCell{
 	padding-left:15%;
 }
@@ -96,6 +108,7 @@ html{
 	margin: 0 auto;
 }
 #procList{
+	list-style-type:none;
 }
 table{
 	max-width:1100px;
