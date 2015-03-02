@@ -33,23 +33,6 @@ body{
 	max-height:1500px;
 	transition: max-height 0.4s ease-in;
 }
-#footer{
-	position:absolute;
-	background-color:#4a5548;
-	width: 100%;
-	bottom:0;
-}
-.footerTable{
-	margin-left:auto;
-	margin-right:auto;
-}
-
-.footerButton a{
-	color:#ecf2f2;
-}
-#footer table tr td{
-	width: 25%;
-}
 h4{
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-size: 110%;
@@ -138,7 +121,27 @@ ul{
 	font-size:150%;
 }
 
+/*
+Unchanged from normal htmltest.css
+*/
 
+#footer{
+	position:absolute;
+	background-color:#4a5548;
+	width: 100%;
+	bottom:0;
+}
+.footerTable{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.footerButton a{
+	color:#ecf2f2;
+}
+#footer table tr td{
+	width: 25%;
+}
 /*
 Tabs for test procedures
 */
