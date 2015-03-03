@@ -129,7 +129,7 @@ Unchanged from normal htmltest.css
 	position:absolute;
 	background-color:#4a5548;
 	width: 100%;
-	bottom:0;
+	bottom:0px;
 }
 .footerTable{
 	margin-left:auto;

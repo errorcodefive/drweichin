@@ -23,6 +23,10 @@ body{
 }
 #diagTab{
 }
+#divUnder{
+	padding-top:130px;
+	
+}
 .Dropdown{
 	list-style-type:none;
 	max-height:0;
@@ -37,7 +41,7 @@ body{
 	position:absolute;
 	background-color:#4a5548;
 	width: 100%;
-	bottom:0;
+	bottom:0px;
 }
 .footerTable{
 	margin-left:auto;
@@ -82,21 +86,44 @@ html{
 .icon{
 	width: 55px;
 }
+#introCell{
+		color:white;
+		font-size:5em;
+		font-family:serif;
+		height:70%;
+		padding:5% 10%;
+		display:table-cell;
+		vertical-align:middle;
+
+		border-radius:15px;
+}
 #IntroPicture{
-	padding-top:100px;
+	padding-top:20px;
 }
 #introTable{
 	width: 100%;
-	margin: 0 auto;
+	margin-left:auto;
+	margin-right:auto;
+	height:100%;
 	text-align: center;
+	background-color:transparent;
 
 }
 #introText{
-	padding-bottom:20%;
-	padding-top:25%;
 	text-align:left;
-	padding-left:10%;
-	padding-right:10%;
+	padding-left:3%;
+	padding-right:3%;
+	margin-top:250px;
+
+
+
+}
+#introUnder{
+	background-image:url("../images/cropped2.jpg");
+	background-size:100%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:400px;
 }
 .keepSquare{
 	height:auto;
@@ -109,9 +136,10 @@ html{
 #logoCell{
 	padding-left:15%;
 }
+
 .PageTitle{
 	padding-left:17%;
-	padding-top:10%;
+	
 }
 .procedures{
 	width:80%;
@@ -120,21 +148,23 @@ html{
 #procList{
 	list-style-type:none;
 }
+
 table{
 	max-width:1100px;
-	min-width:;
+	min-width:200px;
 }
 td{
 	text-align: center;
+
 }
 ul{
 	list-style: square inside url('images/bullet.png');
 }
+
 #welcomeList{
 	text-align: center;
 	margin-left:auto;
 	margin-right:auto;
-	padding-bottom:3%;
 	font-size:150%;
 }
 
