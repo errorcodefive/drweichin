@@ -8,13 +8,12 @@ a:hover{
 	text-decoration:underline;
 }
 body{
-	margin:0;
+	margin:auto auto;
 	min-width:800px;
 }
 .BodyElement{
 	padding-left:17%;
 	padding-right:15%;
-
 }
 .contact{
 
@@ -76,6 +75,7 @@ header{
 	color:#ecf2f2;
 	background-color:#4a5548;
 	max-width:none;
+	margin: 0px 0px;
 	position:fixed;
 	padding-right:10%;
 }
@@ -96,17 +96,18 @@ html{
 #index{
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-variant:small-caps;
+	height:auto;
+	width:auto;
+	margin:auto auto;
 }
 #introCell{
-		color:white;
-		font-size:5em;
-
-		height:70%;
-		padding:5% 10%;
-		display:table-cell;
-		vertical-align:middle;
-
-		border-radius:15px;
+	color:white;
+	font-size:5em;
+	width:100%;
+	padding:1% 1%;
+	display:table-cell;
+	vertical-align:middle;
+	margin-top:5%;
 }
 #IntroPicture{
 	padding-top:20px;
@@ -115,6 +116,7 @@ html{
 	width: 100%;
 	margin-left:auto;
 	margin-right:auto;
+	min-height:400px;
 	height:100%;
 	text-align: center;
 	background-color:transparent;
@@ -122,19 +124,17 @@ html{
 }
 #introText{
 	text-align:left;
-	padding-left:3%;
+	padding-left:6%;
 	padding-right:3%;
 	margin-top:250px;
-
-
-
 }
 #introUnder{
+
 	background-image:url("../images/cropped2.jpg");
 	background-size:100%;
-	background-position:center center;
+	background-position:;left top;
 	background-repeat:no-repeat;
-	height:400px;
+	margin-top:48px;
 }
 .keepSquare{
 	height:auto;
@@ -177,6 +177,8 @@ ul{
 	margin-left:auto;
 	margin-right:auto;
 	font-size:150%;
+	margin-top:3%;
+
 }
 
 

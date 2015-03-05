@@ -1,7 +1,7 @@
 <?php include_once("analyticstracking.php") ?>
 <header>
 <?php $isEnglish=True;?>	
-<table id="headTable" width ="80%">
+<table id="headTable" width ="100%">
 		<tr>
 			<td id="logoCell" width = "1%">
 				<a href = "index.html">
