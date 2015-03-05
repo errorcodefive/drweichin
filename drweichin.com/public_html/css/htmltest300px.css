@@ -11,8 +11,6 @@ body{
 	margin:0;
 }
 .BodyElement{
-	padding-left:17%;
-	padding-right:15%;
 
 }
 .contact{
@@ -22,6 +20,9 @@ body{
 	margin: auto;
 }
 #diagTab{
+}
+#divUnder{
+
 }
 .Dropdown{
 	list-style-type:none;
@@ -33,107 +34,16 @@ body{
 	max-height:1500px;
 	transition: max-height 0.4s ease-in;
 }
-h4{
-	font-family: "Arial Black", Gadget, sans-serif;
-	font-size: 110%;
-	text-align:left;
-}
-header{
-	width: 100%;
-	position: fixed;
-	margin: 0;
-	border: 0;
-}
-.headerButton{
-	min-width:150px;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:130%;
-}
-#headTable{
-	width: 100%;
-	background-color:#badaeb;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	max-width:none;
-	position:fixed;
-}
-html{
-	background-color:#badaeb;
-	margin:0px;
-}
-.icon{
-	width: 55px;
-}
-#IntroPicture{
-	padding-top:100px;
-}
-#introTable{
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-
-}
-#introText{
-	padding-bottom:20%;
-	padding-top:25%;
-	text-align:left;
-	padding-left:10%;
-	padding-right:10%;
-}
-.keepSquare{
-	height:auto;
-	width:100%;
-	padding-bottom:20%;
-}
-.left_justify{
-	text-align:left;
-}
-#logoCell{
-	padding-left:15%;
-}
-.PageTitle{
-	padding-left:17%;
-	padding-top:10%;
-}
-.procedures{
-	width:80%;
-	margin: 0 auto;
-}
-#procList{
-	list-style-type:none;
-}
-table{
-	max-width:1100px;
-	min-width:;
-}
-td{
-	text-align: center;
-}
-ul{
-	list-style: square inside url('images/bullet.png');
-}
-#welcomeList{
-	text-align: center;
-	margin-left:auto;
-	margin-right:auto;
-	padding-bottom:3%;
-	font-size:150%;
-}
-
-/*
-Unchanged from normal htmltest.css
-*/
-
 #footer{
 	position:absolute;
-	background-color:#4a5548;
+	background-color:#3d2e26;
 	width: 100%;
 	bottom:0px;
 }
 .footerTable{
 	margin-left:auto;
 	margin-right:auto;
+	color:#ecf2f2;
 }
 
 .footerButton a{
@@ -142,6 +52,125 @@ Unchanged from normal htmltest.css
 #footer table tr td{
 	width: 25%;
 }
+h4{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 110%;
+	text-align:left;
+}
+header{
+	width: 100%;
+	position: fixed;
+
+}
+.headerButton{
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:80%;
+}
+#headTable{
+	width: 100%;
+	color:#ecf2f2;
+	background-color:#4a5548;
+	max-width:none;
+	position:fixed;
+	
+}
+#headTable a{
+	color:#ecf2f2;
+}
+#headTable a:hover{
+	color:#badaeb;
+}
+html{
+	background-color:#ecf2f2;
+	margin:0px;
+
+}
+.icon{
+	width: 55px;
+}
+#index{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-variant:small-caps;
+}
+#introCell{
+		color:white;
+		font-size:2em;
+
+		height:100%;
+
+		display:table-cell;
+		vertical-align:middle;
+}
+#IntroPicture{
+
+}
+#introTable{
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	height:100%;
+	text-align: center;
+	background-color:transparent;
+	
+}
+#introText{
+	text-align:left;
+	padding-left:3%;
+	padding-right:3%;
+}
+#introUnder{
+	background-image:url("../images/cropped2.jpg");
+	background-size:100%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:310px;
+}
+.keepSquare{
+	height:auto;
+	width:100%;
+
+}
+.left_justify{
+	text-align:left;
+}
+#logoCell{
+	
+}
+
+.PageTitle{
+	padding-left:17%;
+	
+}
+.procedures{
+	width:80%;
+	margin: 0 auto;
+}
+#procList{
+	list-style-type:none;
+}
+
+table{
+	max-width:1100px;
+	min-width:200px;
+}
+td{
+	text-align: center;
+
+}
+ul{
+	list-style: square inside url('images/bullet.png');
+}
+
+#welcomeList{
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:120%;
+	margin-top:-20%;
+}
+
+
 /*
 Tabs for test procedures
 */

@@ -1,15 +1,15 @@
 <?php include_once("analyticstracking.php") ?>
 <header>
 <?php $isEnglish=True;?>	
-<table id="headTable" width ="100%">
+<table id="headTable" width ="80%">
 		<tr>
 			<td id="logoCell" width = "1%">
 				<a href = "index.html">
 					<img id = "logoSVG" 
 					src="images/logo.svg" 
 					alt= "Dr. Wei Chin" 
-					height ="100" 
-					width = "100" 
+					height ="80" 
+					width = "80" 
 					border= "1"
 					align="left"
 					>
@@ -28,7 +28,6 @@
 				<?php include ("php/changelanguage.php");?>
 			</td>
 
-			<td width = "20%"></td>
 		</tr>
 	</table>
 </header>

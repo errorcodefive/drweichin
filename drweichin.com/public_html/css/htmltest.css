@@ -9,6 +9,7 @@ a:hover{
 }
 body{
 	margin:0;
+	min-width:800px;
 }
 .BodyElement{
 	padding-left:17%;
@@ -24,7 +25,7 @@ body{
 #diagTab{
 }
 #divUnder{
-	padding-top:130px;
+	padding-top:40px;
 	
 }
 .Dropdown{
@@ -39,13 +40,14 @@ body{
 }
 #footer{
 	position:absolute;
-	background-color:#4a5548;
+	background-color:#3d2e26;
 	width: 100%;
 	bottom:0px;
 }
 .footerTable{
 	margin-left:auto;
 	margin-right:auto;
+	color:#ecf2f2;
 }
 
 .footerButton a{
@@ -62,8 +64,7 @@ h4{
 header{
 	width: 100%;
 	position: fixed;
-	margin: 0;
-	border: 0;
+
 }
 .headerButton{
 	min-width:150px;
@@ -72,24 +73,34 @@ header{
 }
 #headTable{
 	width: 100%;
-	background-color:#badaeb;
-	margin: 0;
-	padding: 0;
-	border: 0;
+	color:#ecf2f2;
+	background-color:#4a5548;
 	max-width:none;
 	position:fixed;
+	padding-right:10%;
+}
+#headTable a{
+	color:#ecf2f2;
+}
+#headTable a:hover{
+	color:#badaeb;
 }
 html{
-	background-color:#badaeb;
+	background-color:#ecf2f2;
 	margin:0px;
+
 }
 .icon{
 	width: 55px;
 }
+#index{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-variant:small-caps;
+}
 #introCell{
 		color:white;
 		font-size:5em;
-		font-family:serif;
+
 		height:70%;
 		padding:5% 10%;
 		display:table-cell;
