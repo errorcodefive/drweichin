@@ -16,7 +16,7 @@
 				</a>
 			</td>
 			<td class="headerButton">
-				<a href ="testprocedures.html" class = "headLink">Procedures</a>
+				<a href ="procedures.html" class = "headLink">Procedures</a>
 			</td>
 			<td class="headerButton">
 				<a href = "faq.html" class = "headLink">FAQ</a></td>

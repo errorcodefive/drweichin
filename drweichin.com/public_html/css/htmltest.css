@@ -16,7 +16,7 @@ body{
 	padding-right:15%;
 }
 .contact{
-
+	max-width:900px;
 }
 #copyFooter{
 	margin: auto;
@@ -46,11 +46,11 @@ body{
 .footerTable{
 	margin-left:auto;
 	margin-right:auto;
-	color:#ecf2f2;
+	color:#8BB5B2;
 }
 
 .footerButton a{
-	color:#ecf2f2;
+	color:#8BB5B2;
 }
 #footer table tr td{
 	width: 25%;
@@ -72,7 +72,7 @@ header{
 }
 #headTable{
 	width: 100%;
-	color:#ecf2f2;
+	color:#8BB5B2;
 	background-color:#4a5548;
 	max-width:none;
 	margin: 0px 0px;
@@ -80,18 +80,21 @@ header{
 	padding-right:10%;
 }
 #headTable a{
-	color:#ecf2f2;
+	color:#8BB5B2;
 }
 #headTable a:hover{
-	color:#badaeb;
+	color:#C9CBB5;
 }
 html{
-	background-color:#ecf2f2;
+	background-color:#C9CBB5;
 	margin:0px;
 
 }
 .icon{
-	width: 55px;
+	width: 100px;
+}
+#iconText{
+	text-align:left;
 }
 #index{
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -101,7 +104,7 @@ html{
 	margin:auto auto;
 }
 #introCell{
-	color:white;
+	color:#C9CBB5;
 	font-size:5em;
 	width:100%;
 	padding:1% 1%;
@@ -110,7 +113,7 @@ html{
 	margin-top:5%;
 }
 #IntroPicture{
-	padding-top:20px;
+	padding-top:20px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 }
 #introTable{
 	width: 100%;
@@ -150,7 +153,7 @@ html{
 
 .PageTitle{
 	padding-left:17%;
-	
+	padding-top:65px;
 }
 .procedures{
 	width:80%;
@@ -160,18 +163,25 @@ html{
 	list-style-type:none;
 }
 
+
 table{
 	max-width:1100px;
 	min-width:200px;
 }
 td{
-	text-align: center;
+	text-align:center;
 
 }
 ul{
 	list-style: square inside url('images/bullet.png');
 }
-
+#dailyHours{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:150%;
+	margin-top:3%;
+}
 #welcomeList{
 	text-align: center;
 	margin-left:auto;
