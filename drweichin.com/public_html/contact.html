@@ -1,115 +1,174 @@
 <!DOCTYPE html>
 <html>
 <Head>
-	<?php include ("php/linkandmeta.php");?>
+	<?php include ("php/materialdesignslight.php");?>
 </Head>
 <body>
 
 	<?php include("php/header.php");?>
+	<main class="mdl-layout">
 
-	<div class = "PageTitle">
-		Contact Us
-	</div>
-	<div class = "BodyElement">
-		<br>
-		Feel free to contact us at anytime with questions. We will get back to you as soon as possible.
-		<br>
-		<br>
-	</div> 
-	<div class = "BodyElement">
-		<table class = "contact">
-			<tr>
-				<td class = "icon">
-					<img src = "https://google.github.io/material-design-icons/action/svg/ic_schedule_24px.svg" alt = "Hours">
-				</td>
-				<td id = "iconText">
-					Mon-Wed: 10am-6pm<br>
-					Thur: Closed<br>
-					Fri: 10am-6pm<br>
-					Sat: 10am-3pm<br>
-					Sun: Closed
-				</td>
-			</tr>
-		</table >
-		<table class = "contact">
-			<tr>
-				<td class = "icon">
-					<img src = "https://google.github.io/material-design-icons/communication/svg/ic_email_24px.svg" alt = "Email">
-				</td>
-				<td>
-					<a href="mailto:office@drweichin.com">office@drweichin.com</a>
-				</td>
-			</tr>
-		</table >
-		<br>
-		<table class = "contact">
-			<tr>
-				<td class = "icon">
-					<img src = "https://google.github.io/material-design-icons/communication/svg/ic_call_24px.svg" alt = "Phone and Fax">
-					<img src = "https://google.github.io/material-design-icons/action/svg/ic_print_24px.svg" alt = "Phone and Fax">
-				</td>
-				<td>
-					416-733-0002
-				</td>
-			</tr>
-		</table>
-		<br>
-		<table class = "contact">
-			<tr>
-				<td class = "icon">
-					<img src="https://google.github.io/material-design-icons/alert/svg/ic_warning_24px.svg" alt ="Emergency">
-				</td>
-				<td>
-					647-400-8812
-				</td>
-			</tr>
-		</table>
+		<div class = "mdl-grid page-container">
+			<div class ="mdl-cell mdl-cell--3-col mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
+			<div class = "mdl-cell mdl-cell--6-col mdl-cell--8-table mdl-cell--4-phone">
+				<table class = "margin_auto">
+					<tbody>
+						<tr>
+							<td>
+								<table class ="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+									<tbody>
+										<tr>
+											<td>
+												<div id="ttHours" class="icon material-icons">schedule</div>
+												<div class="mdl-tooltip mdl-tooltip--large" for="ttHours">
+													Hours
+												</div>
+											</td>
+											<td>
+												<div class = "mdl-typography--text-left">
+													Mon-Wed: 10am-6pm<br>
+													Thur: Closed<br>
+													Fri: 10am-6pm<br>
+													Sat: 10am-3pm<br>
+													Sun: Closed<br><br>
 
-	</div>
-	<br>
-	<div class = "BodyElement">
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+							<td>
+								<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp" height="100%">
+									<tbody>
+										<tr>
+											<td>
+												<div id="ttEMAIL" class="icon material-icons">email</div>
+												<div class="mdl-tooltip mdl-tooltip--large" for="ttEMAIL">
+													E-Mail
+												</div>
+											</td>
+											<td>
+												<div class = "mdl-typography--text-left">
+													<a href="mailto:office@drweichin.com">office@drweichin.com</a><br>
 
-		<table>
-			<tr>
-				<td class = "icon">
-					<img src ="https://google.github.io/material-design-icons/communication/svg/ic_location_on_24px.svg" alt ="Location">
-				</td>
-				<td class = "left_justify">
-					Suite 206 (Second Floor)
-					<br>
-					<a href = "https://www.google.ca/maps/place/1100+Sheppard+Ave+E,+North+York,+ON+M2K+2W1/@43.7711452,-79.3698302,17z/data=!3m1!4b1!4m2!3m1!1s0x89d4d2b7fd4a3475:0x4de594fa0a7bc36c" target="_blank">
-						1100 Sheppard Avenue East</a>
-						<br>
-						Toronto, Ontario M2K 2W1
-						<br>
-					</td>
-				</tr>
-			</table>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div id="ttPhone" class="icon material-icons">call</div>
+												<div class="mdl-tooltip mdl-tooltip--large" for="ttPhone">
+													Phone & Fax
+												</div>
+											</td>
+											<td>
+												<div class = "mdl-typography--text-left">
+													416-733-0002<br>
+
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div id="ttEmerge" class="icon material-icons">warning</div>
+												<div class="mdl-tooltip mdl-tooltip--large" for="ttEmerge">
+													Emergencies
+												</div>
+											</td>
+											<td>
+												<div class = "mdl-typography--text-left">
+													647-400-8812<br>
+
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td></tr>
+						</tbody>
+					</table>
+
+				</div>
+				<div class ="mdl-cell mdl-cell--3-col mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
+				<div class ="mdl-cell mdl-cell--3-col mdl-cell--hide-phone mdl-cell--hide-tablet"></div>
+
+				<div class = "mdl-cell mdl-cell--6-col mdl-cell--4-col-phone mdl-cell--8-col-tablet">
+					<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+						<tbody>
+							<tr>
+								<td>
+									<div id="ttAddress" class="icon material-icons">location_on</div>
+									<div class="mdl-tooltip mdl-tooltip--large" for="ttAddress">
+										Address
+									</div>
+								</td>
+								<td>
+									<div class = "mdl-typography--text-left">
+										Suite 206 (Second Floor)<br>
+										<a href="https://goo.gl/maps/nKBlk" target = "_blank">
+											1100 Sheppard Avenue East</a><br>
+											Toronto, Ontario M2K 2W1<br><br>
+
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div id="ttMap" class="icon material-icons">public</div>
+										<div class="mdl-tooltip mdl-tooltip--large" for="ttMap">
+											Map
+										</div>
+									</td>
+									<td>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.0825510813074!2d-79.3698302!3d43.77114519999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d2b7fd4a3475%3A0x4de594fa0a7bc36c!2s1100+Sheppard+Ave+E%2C+North+York%2C+ON+M2K+2W1!5e0!3m2!1sen!2sca!4v1441667711692" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</td>
+
+								</tr>
+								<tr>
+									<td>
+										<div id="ttDir" class="icon material-icons">directions</div>
+										<div class="mdl-tooltip mdl-tooltip--large" for="ttDir">
+											Major Intersection
+										</div>
+									</td>
+									<td>
+										<div class = "mdl-typography--text-left" style="white-space:normal;">
+
+											We are on the northwest corner of Sheppard and Leslie,
+											across the street from Canadian Tire and IKEA. We are
+											in the building closer to the entrance of the complex.<br><br>
 
 
-			<br>
-			<table>
-				<tr>
-					<td class = "icon">
-						<img src = "https://google.github.io/material-design-icons/maps/svg/ic_directions_24px.svg" alt = "Major Intersection">
-					</td>
-					<td class = "left_justify">We are on the northwest corner of Sheppard and Leslie, across the street from Canadian Tire and IKEA. We are in the building closer to the entrance of the complex, 1100. </td>
-				</tr>
-			</table>
-			<br>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div id="ttDir2" class="icon material-icons">directions_subway</div>
+										<div class="mdl-tooltip mdl-tooltip--large" for="ttDir2">
+											Public Transit
+										</div>
+									</td>
+									<td>
+										<div class = "mdl-typography--text-left" style="white-space:normal;">
+											The nearest station is Leslie Station on the Sheppard line. The 85 Sheppard East bus also passes by our office, get off at Ambrose or Provost Drive.<br><br>
 
 
-			<table>
-				<tr>
-					<td class = "icon"><img src ="https://google.github.io/material-design-icons/maps/svg/ic_directions_subway_24px.svg" alt = "Public Transity">
-					</td>
-					<td class = "left_justify">The nearest station is Leslie Station on the Sheppard line. The 85 Sheppard East bus also passes by our office, get off at Ambrose or Provost Drive.</td>
-				</tr>
-			</table>
-			<br> 
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 
-		</div>
+				</div>
 
-		<?php include("php/footer.php");?>
-	</body>
-	</html>
+
+
+			</main>
+
+
+
+		</body>
+		</html>

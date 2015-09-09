@@ -8,26 +8,26 @@
 					<img id = "logoSVG" 
 					src="../images/logo.svg" 
 					alt= "Dr. Wei Chin" 
-					height ="100" 
-					width = "100" 
+					height ="80" 
+					width = "80" 
 					border= "1"
 					align="left"
 					>
 				</a>
 			</td>
 			<td class="headerButton">
-				<a href ="testprocedures.html" class = "headLink">Procedures</a>
+				<a href ="testprocedures.html" class = "headLink">程序</a>
 			</td>
 			<td class="headerButton">
 				<a href = "faq.html" class = "headLink">FAQ</a></td>
 			<td class="headerButton">
-				<a href = "contact.html" class = "headLink">Contact Us</a>
+				<a href = "contact.html" class = "headLink">联系</a>
 			</td>
 			<td class = "headerButton">
 				<?php include ("../php/changelanguage.php");?>
 			</td>
-
-			<td width = "20%"></td>
 		</tr>
 	</table>
 </header>
+<div id = "divUnder">
+</div>

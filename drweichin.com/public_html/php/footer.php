@@ -1,4 +1,3 @@
-
 <div id = "footer">
 <br>
 <table class = "footerTable">

@@ -5,3 +5,15 @@ badaeb - Lighter Blue
 9da87a - Light Olive
 cbcea5 - Gray Straw
 	
+	139.181.178 - #8BB5B2 - light blue
+	201.203.181 - #C9CBB5 - grey
+
+	Embed google map of location place in second column on the right
+	majorintersection and public transit shorten/ combine/figure out osmehting better
+	vary up font sizes+ serif/sans-serif
+
+Remove tomorrow part on index.
+change font to black as well
+
+
+paltino linotype - font for Dr.WeiChin DDS
