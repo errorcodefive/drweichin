@@ -3,3 +3,5 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
 	<link rel="stylesheet" type = "text/css" href = "../css/other.css">
+	<link rel="stylesheet" type = "text/css" href = "../css/simple-slideshow-styles.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
