@@ -17,7 +17,7 @@ if ($isEnglish == True){
 	echo "</button>";
 	echo "</a>";
 } elseif ($isEnglish == False){ 
-	//if website is chinese remove /cn to return to english
+	//if website is chinese  but does not have english equivalent then go to english homepage
 	if ($hasEnglish==False){
 		echo "<a href =\"../index.html\">";
 		echo "<button class=\"mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored\">";
@@ -27,7 +27,7 @@ if ($isEnglish == True){
 		echo "</button>";
 		echo "</a>";
 		
-		
+		//if website is chinese and has english equivalent go to page
 	} else{
 		$enRoot = substr(getUrl(),0,strrpos(getUrl(),"/cn/",-1));
 		$enSpecific = substr(getUrl(),strrpos(getUrl(),"/cn/")+3);
