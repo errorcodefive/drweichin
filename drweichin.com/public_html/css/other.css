@@ -2,10 +2,18 @@
 	background-image:url("../images/cropped2.jpg");
 	background-size:100%;
 	background-repeat:no-repeat;
+
+}
+html{
+	background-color:#E6E6E6;
 }
 #headerName{
 	text-decoration:none;
 	color
+}
+#headerSpan{
+
+
 }
 .page-container{
 	max-width:1600px;
@@ -14,8 +22,9 @@
 }
 .page-content{
 	border-radius:2px;
-	padding:80px 56px;
-	margin-bottom:80px;
+	padding:0px 0px;
+	margin-bottom:0px;
+
 
 }
 #indexHours{

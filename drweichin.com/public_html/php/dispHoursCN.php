@@ -1,59 +1,70 @@
-<?php
+ <?php
 	$day = date("l");
 	$time = date("h");
 	$ampm = date("a");
 
 
-	if ($day == "Monday" and $time<9 and $ampm=="am"){
-		echo "今天我们10点开门,6点关闭.";
+	if ($day == "Monday"){
+		if ($ampm = "am"){
+			echo "Monday: 10am &mdash; 6pm";
+		}
+		elseif ($time<5 and $ampm ="pm"){
+			echo "Monday: 10am &mdash; 6pm";
+		}
+		elseif ($time>5 and $ampm="pm"){
+			echo "We are currently closed. Tuesday: 10am &mdash; 6pm";
+		}
 	}
-	elseif ($day =="Monday" and $time>6 and $ampm =="pm"){
-	echo "我们现在关门了.明天我们从10am点到6pm点开门.";
+	elseif ($day =="Tuesday"){
+		if ($ampm = "am"){
+			echo "Tuesday: 10am &mdash; 6pm";
+		}
+		elseif ($time<5 and $ampm ="pm"){
+			echo "Tuesday: 10am &mdash; 6pm";
+		}
+		elseif ($time>5 and $ampm="pm"){
+			echo "We are currently closed. Wednesday: 10am &mdash; 6pm";
+		}
 	}
-	elseif ($day =="Monday"){
-		echo "今天和明天我们从10am到6am开门.";
+	elseif ($day =="Wednesday"){
+		if ($ampm = "am"){
+			echo "Wednesday: 10am &mdash; 6pm";
+		}
+		elseif ($time<5 and $ampm ="pm"){
+			echo "Wednesday: 10am &mdash; 6pm";
+		}
+		elseif ($time>5 and $ampm="pm"){
+			echo "We are closed for today and tomorrow. Friday: 10am &mdash; 6pm";
+		}
 	}
-	elseif ($day == "Tuesday" and $time<9 and $ampm=="am"){
-		echo "今天我们10点开门,6点关闭.";
+	elseif($day == "Thursday"){
+		echo "We are currently closed. Friday: 10am &mdash; 6pm";
 	}
-	elseif ($day == "Tuesday" and $time>6 and $ampm=="pm"){
-		echo "今天我们现在关门了.明天我们从10am点到6pm点开门.";
-	}
-	elseif($day =="Tuesday"){
-		echo "今天和明天我们从10am到6am开门.";
-	}
-	elseif ($day == "Wednesday" and $time<9 and $ampm=="am"){
-		echo "今天我们10点开门6点关闭.";
-	}
-	elseif ($day == "Wednesday" and $time>6 and $ampm=="pm"){
-		echo "今天我们现在关门了.星期五我们10点开门6点关闭.";
-	}
-	elseif($day =="Wednesday"){
-		echo "今天我们10点开门6点关闭.";
-	}
-		elseif ($day == "Thursday"){
-		echo "今天我们星期四关门.明天我们10点开门6点关闭.";
-	}
-	elseif ($day == "Friday" and $time<9 and $ampm=="am"){
-		echo "今天和明天我们从10am到6am开门.";
-	}
-	elseif($day == "Friday" and $time>6 and $ampm=="pm"){
-		echo "我们今天关门了但是明天从10am到3pm开门.";
-	}
-	elseif($day == "Friday"){
-		echo "今天我们10点开门6点关闭. 明天我们10点开门3点关闭.";
-	}
-	elseif ($day == "Saturday" and $time<9 and $ampm =="am"){
-		echo "今天我们10点开门3点关闭.";
-	}
-	elseif ($day == "Saturday" and $time>3 and $ampm =="pm"){
-		echo "今天和明天关门了. 我们星期一10点开门6点关闭.";
+	elseif($day =="Friday"){
+		if ($ampm = "am"){
+			echo "Friday: 10am &mdash; 6pm";
+		}
+		elseif ($time<5 and $ampm ="pm"){
+			echo "Friday: 10am &mdash; 6pm";
+		}
+		elseif ($time>5 and $ampm="pm"){
+			echo "We are currently closed. Saturday: 10am &mdash; 3pm";
+		}
 	}
 	elseif($day =="Saturday"){
-		echo "今天我们10点开门3点关闭.";
+		if ($ampm = "am"){
+			echo "Saturday: 10am &mdash; 3pm";
+		}
+		elseif ($time<3 and $ampm ="pm"){
+			echo "Saturday: 10am &mdash; 3pm";
+		}
+		elseif ($time>3 and $ampm="pm"){
+			echo "We are closed for the weekend. Monday: 10am &mdash; 5pm";
+		}		
 	}
-	elseif ($day == "Sunday"){
-		echo "我们关门了今天.明天我们从10am点到6pm点开门.";
+	elseif($day =="Sunday"){
+		echo "We are closed on Sundays. Monday: 10am &mdash; 6pm";
 	}
 
 ?>
+

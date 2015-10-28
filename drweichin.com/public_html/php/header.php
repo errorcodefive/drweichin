@@ -48,7 +48,7 @@
     </nav>
   </div>
 
-	<span>
+	<span id ="headerSpan">
 		<div align ="right">
 			<?php include_once("php/changelanguage.php") ?>
 		</div>
